@@ -1,0 +1,52 @@
+.header {
+    flex: 0 0 content;
+}
+
+.main {
+    font-size: larger;
+    float: left;
+    position: relative;
+    width: 75%;
+    margin: 0px;
+    padding: 0px;
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    align-items: stretch;
+}
+
+.nav {
+    width: 24%;
+    margin: 3px;
+    padding: 0px;
+    float: right;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+
+}
+
+
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 25%;
+    align-items: stretch;
+}
